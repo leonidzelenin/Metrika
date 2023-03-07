@@ -242,17 +242,9 @@ h2 {
   margin-bottom: 163px;
 }
 
-.contacts-container::before {
+.phone-icon {
   margin-bottom: 11px;
-  content: "";
-  position: relative;
-  display: block;
-  width: 24px;
-  height: 24px;
-  background-image: url('phone-icon.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50%;
+  margin-left: -4px;
 }
 
 .phone-number {
