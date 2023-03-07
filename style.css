@@ -249,7 +249,7 @@ h2 {
   display: block;
   width: 24px;
   height: 24px;
-  background-image: url("phone-icon.png");
+  background-image: url('phone-icon.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50%;
