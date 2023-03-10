@@ -4,15 +4,12 @@ html {
 
 body {
   font-family: "Manrope", sans-serif;
-  background: #f5f5f5;
 }
 
 .whole-page-container {
   width: 1400px;
   margin: auto;
   padding-top: 33px;
-  padding-left: 125px;
-  padding-right: 125px;
   background: #ffffff;
 }
 
@@ -158,6 +155,7 @@ h2 {
 }
 
 .study-projects {
+  margin-bottom: 150px;
   display: block;
   border: 1px solid #ad1818;
   border-radius: 5px;
@@ -172,7 +170,6 @@ h2 {
   font-size: 30px;
   line-height: 153px;
   transition: 200ms linear;
-  margin-bottom: 150px;
 }
 
 .study-projects:hover {
@@ -181,7 +178,7 @@ h2 {
 }
 
 .black-container {
-  width: 1400px;
+  width: 100%;
   height: 1844px;
   background: #121212;
   margin: auto;
@@ -217,24 +214,29 @@ h2 {
 }
 
 .project-example {
-  margin-bottom: 148px;
+  position: relative;
+  margin-bottom: 115px;
+  width: 100%;
   height: 717px;
-  background-image: url("Brown-bed.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background: url(./Brown-bed.png);
+  background-position: 50%;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1150px;
+  margin: auto;
 }
 
 .project-example-text {
-  width: 443px;
-  height: 83px;
+  position: absolute;
+  bottom: 60px;
+  max-width: 443px;
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
   color: #ffffff;
-  padding-left: 125px;
-  padding-top: 575px;
+  letter-spacing: -0.03em;
 }
 
 .contacts-container {
